@@ -20,7 +20,7 @@ namespace innodiswebapp1._1
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            myConn.ConnectionString = "Direct = true;User Id=xxean;Password=ean123;Server=innebnidm02.innodisgroup.com;Port = 1541;Sid = prd1;";
+            myConn.ConnectionString = "Direct = true;User Id=;Password=;Server=;Port = ;Sid = ;";
 
             if (!Page.IsPostBack)
             {
