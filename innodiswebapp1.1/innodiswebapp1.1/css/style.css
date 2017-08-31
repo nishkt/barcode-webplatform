@@ -1,0 +1,116 @@
+.input
+    {
+    	width:100%;
+    	padding: 20px;
+    	margin-bottom: 20px;
+    	position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+    .form-top {
+        overflow: hidden;
+        padding: 0 25px 15px 25px;
+        background: #f0f0f0;
+        -moz-border-radius: 4px 4px 0 0;
+        -webkit-border-radius: 4px 4px 0 0;
+        text-align: center;
+    }
+    
+    .form-bottom {
+        padding: 25px 25px 30px 25px;
+        background: #f0f0f0;
+        -moz-border-radius: 0 0 4px 4px;
+        -webkit-border-radius: 0 0 4px 4px;
+        text-align: left;
+    }
+    
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        border: 0;
+    }
+    
+    #btn-login
+    {
+    	text-align: center;
+    	width: 100%;
+    	
+    }
+
+    .bg-success
+    {
+        width:100%;
+        background-color:#bedfff;
+    }
+    
+	body
+	{
+		padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+		background:#f0f0f0;
+		color:#6d6e71;
+	}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-inverse
+{
+	background-color: #f0f0f0;
+	border-color:#bed62f;
+
+}
+
+/*Used to style tables accross all pages*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x:auto;
+    align-content: center;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+/*Selective formatting by pseudo-element/pseudo-class*/
+tr:nth-child(even){
+	background-color: #f2f2f2
+}
+
+th {
+    background-color: #bed62f;
+    color: white;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+	
+	.btn-default
+	{
+		width:100%;
+	}
+	
+	.navbar-btn
+	{
+		border:none;
+		background:#f0f0f0;
+	}
