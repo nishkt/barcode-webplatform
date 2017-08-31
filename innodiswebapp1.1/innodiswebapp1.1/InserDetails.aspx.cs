@@ -36,7 +36,7 @@ namespace innodiswebapp1._1
 
             ErrorLabel.Text = "";
 
-            myConn.ConnectionString = "Direct = true;User Id=xxean;Password=ean123;Server=innebnidm02.innodisgroup.com;Port = 1541;Sid = prd1;";
+            myConn.ConnectionString = "Direct = true;User Id=;Password=;Server=;Port = ;Sid = ;";
 
             DropIndividual.Visible = false;
             txtSearch.Visible = false;
